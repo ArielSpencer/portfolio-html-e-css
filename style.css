@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: #F6F6F6;
+}
+
+strong {
+    color: #C8F31D;
+}
+
+a {
+    color: DodgerBlue;
+
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 13%;
+}
+
+.apresentacao__conteudo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 21px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #C8F31D;
+    width: 230px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 17px 0;
+    color: black;
+    font-size: 21px;
+    font-family: "Inter", sans-serif;
+    font-weight: 350;
+    text-decoration: none;
+    box-shadow: -2px 2px 3px white;
+}
