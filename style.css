@@ -42,6 +42,13 @@ a {
     letter-spacing: 3px;
 }
 
+.apresentacao__links__subtitulos {
+    font-size: 26px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
 .apresentacao__conteudo__paragrafo {
     font-size: 21px;
     font-family: "Inter", sans-serif;
@@ -50,19 +57,25 @@ a {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
 
 .apresentacao__links__link {
-    background-color: #C8F31D;
-    width: 230px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border: 2px solid #C8F31D;
     padding: 17px 0;
-    color: black;
+    color: #F6F6F6;
     font-size: 21px;
     font-family: "Inter", sans-serif;
     font-weight: 350;
     text-decoration: none;
-    box-shadow: -2px 2px 3px white;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
 }
