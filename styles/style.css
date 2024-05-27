@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:slnt,wght@-10..0,100..900&display=swap');
 
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #C8F31D;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "DM Sans", sans-serif;
+    --fonte-secundaria: "Inter", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,25 +34,20 @@
 
 .cabecalho__menu__link {
     font-size: 21px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 350;
     text-decoration: none;
-    color: #C8F31D;
+    color: var(--cor-terciaria);
 }
 
 body {
     box-sizing: border-box;
-    background-color: black;
-    color: #F6F6F6;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 }
 
 strong {
-    color: #C8F31D;
-}
-
-a {
-    color: DodgerBlue;
-
+    color: var(--cor-terciaria);
 }
 
 .apresentacao {
@@ -61,26 +66,26 @@ a {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 300;
     letter-spacing: 3px;
 }
 
 .apresentacao__links__subtitulos {
     font-size: 26px;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--fonte-primaria);
     font-weight: 200;
     letter-spacing: 3px;
 }
 
 .apresentacao__conteudo__paragrafo {
     font-size: 21px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 100;
 }
 
 span {
-    color: #C8F31D;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__links {
@@ -95,11 +100,11 @@ span {
     width: 378px;
     text-align: center;
     border-radius: 8px;
-    border: 1.7px solid #C8F31D;
+    border: 1.7px solid var(--cor-terciaria);
     padding: 8px 0;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-size: 21px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 350;
     text-decoration: none;
     display: flex;
@@ -109,7 +114,7 @@ span {
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .apresentacao__links__link__icon {
@@ -122,9 +127,9 @@ span {
 
 .rodape {
     color: #000000;
-    background-color: #C8F31D;
+    background-color: var(--cor-terciaria);
     font-size: 17px;
-    font-family: "Inter", sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 350;
     text-align: center;
     padding: 24px;
