@@ -114,11 +114,11 @@ span {
     align-items: center;
 }
 
-.apresentacao__links__apresentacao:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
 }
 
-.apresentacao__links__apresentacao__icon {
+.apresentacao__links__navegacao__icon {
     width: 2.2rem;
     }
 
